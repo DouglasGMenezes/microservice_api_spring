@@ -1,4 +1,4 @@
-package com.douglas.project.microservices_api;
+package com.douglas.project.microservices_api_user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
