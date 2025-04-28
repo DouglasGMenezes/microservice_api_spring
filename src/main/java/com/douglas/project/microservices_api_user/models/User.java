@@ -2,9 +2,9 @@ package com.douglas.project.microservices_api_user.models;
 
 
 import jakarta.persistence.*;
-
 import java.io.Serializable;
 import java.util.UUID;
+
 
 @Entity
 @Table(name ="tb_users")
@@ -17,7 +17,6 @@ public class User implements Serializable {
     private UUID userId;
     private String name;
     private String email;
-
 
     public UUID getUserId() {
         return userId;
